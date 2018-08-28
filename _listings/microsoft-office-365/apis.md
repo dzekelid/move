@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Move
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/move/master/_listings/microsoft-office-365/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Microsoft Office 365 - Add Messages Message Move
+  x-api-slug: messagesmessage-idmove-post
+  description: Post messages message  move
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
+  humanURL: http://office.com
+  baseURL: https://outlook.office365.com//ews/odata/Me
+  tags: Spreadsheets, Documents, Stack Network, Stack, Productivity, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/move/master/_listings/microsoft-office-365/messagesmessage-idmove-post-openapi.md
 - name: Microsoft Office 365 - Parameters Messages Message Move
   x-api-slug: messagesmessage-idmove-parameters
   description: Parameters messages message  move

@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Google Tag Manager
-x-complete: 1
+x-complete: 0
 info:
-  title: Tag Manager
-  description: accesses-tag-manager-accounts-and-containers-
+  title: Google Tag Manager API Move Entity
+  description: Moves entities to a GTM Folder.
   contact:
     name: Google
     url: https://google.com
@@ -51,3 +52,17 @@ paths:
           description: OK
       tags:
       - Entity
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

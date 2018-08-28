@@ -7,11 +7,65 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Move
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/move/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Move widget onto another dashboard
+  x-api-slug: apidashboardmovewidget-put
+  description: Move widget onto another dashboard.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/move/master/_listings/dezrez/apidashboardmovewidget-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Change the estimated move in date for the tenancy.
+  x-api-slug: apiprogressionlettingssetestimatedmoveindate-put
+  description: Change the estimated move in date for the tenancy..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/move/master/_listings/dezrez/apiprogressionlettingssetestimatedmoveindate-put-openapi.md
+- name: "Dezrez.Rezi.Client.Api - Update the service types by PersonId\r\nThis cannot
+    be used internally as they do not have the right to move status up to to approved
+    \r\nOnly the client does"
+  x-api-slug: apipeopleidupdateservicetypes-post
+  description: "Update the service types by personid\r\nthis cannot be used internally
+    as they do not have the right to move status up to to approved \r\nonly the client
+    does."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/move/master/_listings/dezrez/apipeopleidupdateservicetypes-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Move funds to suspense account to another ledger
+  x-api-slug: apitransfersuspend-post
+  description: Move funds to suspense account to another ledger.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/move/master/_listings/dezrez/apitransfersuspend-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Move funds from suspense account to another ledger
+  x-api-slug: apitransferunsuspend-post
+  description: Move funds from suspense account to another ledger.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/move/master/_listings/dezrez/apitransferunsuspend-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez
